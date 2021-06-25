@@ -1,0 +1,167 @@
+
+.containor{
+    font-family: 'Open sans',sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: lightgray;
+
+}
+/*Top div styles*/
+.firstDiv{
+    display: flex;
+    justify-content:space-around;
+    background-color: #1e5d9c;
+    padding-top: 18px;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+.searchBar{
+    padding: 15px;
+    background-color: #327ac2;
+}
+
+/*Links*/
+.links{
+    background-color: #327ac2;
+    display: flex;
+    padding: 24px;
+   /* flex-direction: row-reverse;
+    justify-content: right;
+    align-items: flex-start;*/
+
+     
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+}
+/*Line-divs*/
+.orange{
+    border-bottom: 9px solid  #eb6b34;
+}
+.blue{
+   border-bottom: 9px solid #3684e3; 
+}
+.lineDiv{
+    display: flex;
+}
+.nextLine{
+    padding: 0px;
+    display: flex;
+}
+
+/*payment-div*/
+.payment{
+    
+}
+.imageBackground{
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: -16;
+    position: relative;
+    height: 600px;
+}
+
+
+.card{
+    position: absolute;
+    top: 200;
+    float:left;
+    color: black;
+    font-size: 20px;
+    width: 40vh;
+    margin-left: 20px;
+}
+.choices ::placeholder{
+    color: gray;
+    opacity: 1;
+}
+
+.choices{
+    margin-top: 10px;
+}
+
+.cardButtons{
+    margin-top: 10px;
+    display: flex;
+}
+.credit {
+    margin-right: 20px;
+}
+.butBlue{
+    background-color: darkblue;
+    color: white;
+    font-size: 20px; 
+}
+
+.butColor{
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+/*top card buttons*/
+
+
+/*split column*/
+
+.twoColumn{
+    margin-top: -16;
+    padding: 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: left;
+    
+}
+.occasion {
+    
+}
+.inputs ::placeholder{
+    color: gray;
+    opacity: 1;
+}
+
+.inputs-joinButton ::placeholder{
+    color: gray;
+    opacity: 1;
+}
+
+/**/
+.contacts {
+    background-color: gray;
+    display: grid;
+    color: white;
+    padding-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.left{
+    text-align: center;
+}
+.left > .icons{
+    justify-content: center;
+    display: flex;
+}
+.twitter{
+    margin-left: 15px;
+}
+.instagram {
+    margin-left: 15px;
+}
+
+
+
+.center {
+    display: block; margin-left: auto; margin-right: auto;
+}
+/*About page*/
+.form ::placeholder{
+    color: black;
+    opacity: 1;
+}
+
